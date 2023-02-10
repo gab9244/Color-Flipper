@@ -1,0 +1,92 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+    body {
+        display: flex;
+        flex-direction: column;
+        font-family: sans-serif;
+        height: 100vh;
+        width: 100vw;
+        background-color: white;
+       
+    }
+    .all {
+        display: flex;
+        flex-direction: column;
+        margin-top: 40vh;
+    }
+#container {
+
+    margin: auto;
+    font-size: 40px;
+    font-weight: bold;
+    color: white;
+    background-color: black;
+    width: 45vw;
+    border-radius: 10px;
+    padding: 10px;
+    font-family: sans-serif;
+}
+#colorch {
+    color: rgb(82, 140, 216);
+}
+#btn {
+   
+    border: 2px solid black;
+    margin: auto;
+    margin-top: 40px;
+    width: 10vw;
+    border-radius: 10px;
+   
+    
+}
+button {
+    height: 8vh;
+    width: 10vw;
+    color: black;
+    background: transparent;
+    border: 2px solid rgb(0, 140, 255);
+    font-weight: 1000;
+    border-radius: 10px;
+    
+}
+#escolha {
+    display: flex;
+ 
+    
+    
+}
+#painel {
+    display: flex;
+    justify-content: space-around;
+    font-size: 20px;
+    padding: 10px;
+    background-color: white;
+    width: 100vw;
+    box-shadow: 1px 0px 6px 1px;
+   
+    
+    
+}
+#flipper {
+    color:rgb(0, 140, 255);
+}
+input {
+    border: none;
+    font-size: 20px;
+    padding-right: 10px;
+    
+}
+input:hover {
+    cursor: pointer;
+    color:  rgb(0, 140, 255);
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+a:hover{
+    color:  rgb(0, 140, 255);
+}
